@@ -6,12 +6,12 @@ Prior to the workshop you'll need to install R and several required packages, do
 
 ### R
 1. Install or update R to version 3.5.1 or newer https://www.r-project.org/.
-2. Run [get-packages.R] https://github.com/jnephin/sdm-framework-workshop/get-packages.R to install the required packages.
+2. Run [get-packages.R](https://github.com/jnephin/sdm-framework-workshop/blob/master/get-packages.R) to install the required packages.
 3. Update the raster package if your current version is < raster 3.0-7.
 4. RStudio is not required but recommended and available from the DFO Software Catalogue.
 
 ### SDM code
-The framework modelling code can be accessed [here] https://github.com/dfo-msea/sdm-framework, download a zip folder or clone the repository with:
+The framework modelling code can be accessed [here](https://github.com/dfo-msea/sdm-framework), download a zip folder or clone the repository with:
 ```git
 git clone https://github.com/dfo-msea/sdm-framework.git
 ```
