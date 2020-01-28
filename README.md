@@ -32,6 +32,7 @@ The example dataset will be shared via email. The zip folder will contain severa
 
 ## Schedule
 The workshop will roughly follow the schedule below.
+
 |Time|Item|
 |-------|-----------------------|
 | 13:00 | Overview of the SDM Framework |
@@ -39,7 +40,7 @@ The workshop will roughly follow the schedule below.
 | 13:40 | Run DataPrep.R with example dataset and examine outputs |
 | 14:00 | Run GLM line-by-line with SDM.R |
 | 14:30 | Run BRT with RunSDM.R |
-| 15:00 | *Break* |
+| 15:00 | Break |
 | 15:20 | Examine outputs from GLM and BRT models |
 | 15:40 | Run Ensemble.R |
 | 16:00 | Examine outputs from ensemble model |
