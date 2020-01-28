@@ -21,7 +21,8 @@ UsePackages( c("parallel", "raster", "sp", "rgdal", "usdm",
                "rgeos", "spdep", "gstat", "ModelMetrics", "PresenceAbsence",
                 "adehabitatHR", "maptools", "ggplot2", "GGally", "gridExtra",
                "dplyr", "reshape2","gbm", "MuMIn", "dismo", "classInt",
-               "colorRamps", "viridis", "RColorBrewer","devtools") )
+               "colorRamps", "viridis", "RColorBrewer","devtools",
+               "cowplot","automap","future.apply") )
 
 
 # Check version of raster package
