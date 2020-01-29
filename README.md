@@ -17,7 +17,10 @@ git clone https://github.com/dfo-msea/sdm-framework.git
 ```
 
 ### Example dataset
-The example dataset will be shared via email. The zip folder will contain several GeoTIFF environmental predictor layers, a point shapefile with species occurrence records for Bandoor skate and a polygon shapefile of the regional coastline. The example dataset files are summarised in the table below.
+The example dataset will be shared via email. The zip folder will contain several GeoTIFF environmental predictor layers, a point shapefile with species occurrence records for Barndoor skate and a polygon shapefile of the regional coastline. The example dataset files are summarised in the table below.
+
+<img src="https://oceana.org/sites/default/files/styles/lightbox_full/public/barndoor-skate.jpg?itok=y3KbpQeAo" width="250" height="170">
+
 
 |Filename |Description|
 |-------|-----------------------|
