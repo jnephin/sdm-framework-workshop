@@ -1,5 +1,5 @@
 
-# Install missing packages and load required packages (if required)
+# Install missing packages and load required packages
 UsePackages <- function( pkgs, update=FALSE, locn="http://cran.rstudio.com/" ) {
   # Identify missing (i.e., not yet installed) packages
   newPkgs <- pkgs[!(pkgs %in% installed.packages( )[, "Package"])]
@@ -16,16 +16,23 @@ UsePackages <- function( pkgs, update=FALSE, locn="http://cran.rstudio.com/" ) {
 
 
 
-# From data prep
-# Load required packages
-UsePackages( c("parallel", "raster", "sp", "rgdal", "usdm", "rgeos",
-                "spdep", "gstat", "ModelMetrics", "PresenceAbsence",
+# Install and load required packages
+UsePackages( c("parallel", "raster", "sp", "rgdal", "usdm", 
+               "rgeos", "spdep", "gstat", "ModelMetrics", "PresenceAbsence",
                 "adehabitatHR", "maptools", "ggplot2", "GGally", "gridExtra",
                "dplyr", "reshape2","gbm", "MuMIn", "dismo", "classInt",
-               "colorRamps", "viridis", "RColorBrewer")
+               "colorRamps", "viridis", "RColorBrewer","devtools",
+               "cowplot","automap","future.apply") )
+
+
+# Check version of raster package
+packageVersion("raster")
+# If less than 3.0.7
+# update.packages("raster")
 
 
 # install blockCV package from github if needed and load
+# If you are prompted to update packages select the None option
 if("blockCV" %in% rownames(installed.packages()) == FALSE) {
   devtools::install_github("rvalavi/blockCV")
   library("blockCV")
