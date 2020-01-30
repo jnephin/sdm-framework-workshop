@@ -1,5 +1,8 @@
 ## SDM Framework Workshop at BIO
-The purpose of this workshop is to demonstrate the functionality of the Species Distribution Modelling (SDM) code that was developed to implement the SDM 'framework' reviewed by CSAS in June 2019 (*Development of a Species Distribution Modelling Framework and its Application to Twelve Species on Canada’s Pacific Coast*). The framework presents a standardized approach to SDM including aspects of data preparation, cross-validation, model fitting, evaluation, prediction, interpretation and uncertainty estimation. The framework recommends a multiple model approach. However, only two model building methods are currently supported by the R code (generalized linear models and boosted regression tree models) but it could be adapted to include other methods. A pre-publication draft of the research document will be provided via email.
+
+The purpose of this workshop is to demonstrate the functionality of the Species Distribution Modelling (SDM) code that was developed to implement the SDM 'framework' reviewed by CSAS in June 2019 (*Development of a Species Distribution Modelling Framework and its Application to Twelve Species on Canada’s Pacific Coast*). The SAR is available [here](http://www.dfo-mpo.gc.ca/csas-sccs/Publications/SAR-AS/2020/2020_004-eng.html) and a pre-publication draft of the research document will be provided via email.
+
+The framework presents a standardized approach to SDM including aspects of data preparation, cross-validation, model fitting, evaluation, prediction, interpretation and uncertainty estimation. The framework recommends a multiple model approach. However, only two model building methods are currently supported by the R code (generalized linear models and boosted regression tree models) but it could be adapted to include other methods.
 
 ## Preparing for the Workshop
 Prior to the workshop you'll need to install R and several required packages, download or clone the SDM Framework code and save a copy of the example dataset.
@@ -30,7 +33,7 @@ The example dataset will be shared via email. The zip folder will contain severa
 |sal_1.tif |Salinity|
 |tem_1.tit |Temperature|
 |Species200.shp |Species occurrences|
-|Poly1.shp |Coastline polygon of Scotian Shelf|
+|NE_10mLand.shp |Coastline polygon for the Scotian Shelf|
 
 
 ## Schedule
